@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/blog' | relative_url }}">Blog</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ site.resume_url }}">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© {{ site.author.name }} {{ site.time | date: "%Y" }} • <a href="{{ site.linkedin }}">LinkedIn</a></p>
+    </div>
+  </footer>
+</body>
+</html>

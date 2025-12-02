@@ -1,0 +1,12 @@
+---
+title: "Pramo Samarasinghe"
+email: ""
+description: "Personal website and blog — Pramo Samarasinghe"
+baseurl: ""
+u: "https://pramo1999.github.io"
+author:
+  name: "Pramo Samarasinghe"
+linkedin: "https://www.linkedin.com/in/your-linkedin-here" # <-- replace with your LinkedIn URL
+resume_url: "/Resume_Dec2025.pdf" # using the resume file you added at repository root
+paginate: 5
+---
